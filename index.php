@@ -1,7 +1,6 @@
 <title>Balfour Leadership Training Workshop</title>
 
 <?php
-include("./header.php");
 
 define("ROWS", 4);
 define("COLUMNS", 5);
@@ -32,7 +31,7 @@ array("Peterson", 0, 1, 1, 0),
 array("Stairs", 0, 0, 1, 0), 
 array("Studying", 0, 1, 1, 0),
 array("About", 0, 0, 0, "./about"),
-array("Register", 0, 0, 0, "./register")
+array("Login+Register", 0, 0, 0, "./register") //Toggle between "Register" and "Login+Register"
 );
 
 
